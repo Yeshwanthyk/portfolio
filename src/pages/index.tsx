@@ -31,8 +31,7 @@ const Area = styled(animated.div)`
   grid-template-rows: 35vw 40vw 25vw;
   grid-template-areas:
     'first-project first-project first-project'
-    'three-projects three-projects three-projects'
-    'instagram instagram instagram';
+    'three-projects three-projects three-projects';
 
   @media (max-width: ${props => props.theme.breakpoints[3]}) {
     grid-template-columns: repeat(4, 1fr);
@@ -41,8 +40,7 @@ const Area = styled(animated.div)`
     grid-template-areas:
       'first-project first-project first-project first-project'
       'three-projects three-projects three-projects three-projects'
-      'three-projects three-projects three-projects three-projects'
-      'instagram instagram instagram instagram';
+      'three-projects three-projects three-projects three-projects';
   }
 
   @media (max-width: ${props => props.theme.breakpoints[1]}) {
@@ -50,11 +48,10 @@ const Area = styled(animated.div)`
     grid-template-rows: repeat(5, 38vw);
 
     grid-template-areas:
-      'first-project about-us'
+      'first-project first-project'
       'three-projects three-projects'
       'three-projects three-projects'
-      'three-projects three-projects'
-      'instagram instagram';
+      'three-projects three-projects';
   }
 
   @media (max-width: ${props => props.theme.breakpoints[0]}) {
@@ -63,11 +60,9 @@ const Area = styled(animated.div)`
 
     grid-template-areas:
       'first-project'
-      'about-us'
       'three-projects'
       'three-projects'
-      'three-projects'
-      'instagram';
+      'three-projects';
   }
 `
 
